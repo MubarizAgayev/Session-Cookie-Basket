@@ -99,7 +99,7 @@ namespace EntityFramework_Slider.Controllers
                     Count = 1,
                     Price = (int)dbProduct.Price,
                     TotalPrice = (int)(dbProduct.Count * dbProduct.Price),
-                    Image = dbProduct.Images.FirstOrDefault().Image
+
 
                 }) ;
             }
